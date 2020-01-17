@@ -380,6 +380,7 @@ function jsqrscanner(){
       unflattenKeylistIntoAnswers(['ie9'], 'AE018299F22A5C43CDE722596A356FE1');
       unflattenKeylistIntoAnswers(['ie8'], 'B50F1006FFF36B919F817FB21C376A4E');
       strongName = answers[computePropValue('user.agent')];
+      alert(strongName)
       var idx = strongName.indexOf(':');
       if (idx != -1) {
         softPermutationId = parseInt(strongName.substring(idx + 1), 10);
