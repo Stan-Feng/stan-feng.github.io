@@ -376,7 +376,7 @@ function jsqrscanner(){
     try {
       unflattenKeylistIntoAnswers(['ie10'], '2D6F2AD2D3D18FC660410390D08A44E2');
       unflattenKeylistIntoAnswers(['gecko1_8'], '3550747723E417AFD6746F02411DB464');
-      unflattenKeylistIntoAnswers(['safari'], '4CD967E60342A4DBCBFBE1117B8A295D');
+      unflattenKeylistIntoAnswers(['safari'], '7336332C96BEE798552E9397E317C8AC');
       unflattenKeylistIntoAnswers(['ie9'], 'AE018299F22A5C43CDE722596A356FE1');
       unflattenKeylistIntoAnswers(['ie8'], 'B50F1006FFF36B919F817FB21C376A4E');
       strongName = answers[computePropValue('user.agent')];
